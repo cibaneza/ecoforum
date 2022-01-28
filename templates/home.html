@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block title %}Home!{% endblock title %}
+{% load static %}
+{% load humanize %}
+
+    {% block content %}
+    <main class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          {% for post in posts %}
+          <article class="media content-section my-2">
+            <div class="media-body">
+              <div class="article-metadata">
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">  
+                  <img src="{{ post.user.profile.image.url }}" alt="mdo" width="32" height="32" class="rounded-circle">
+                  <h2 class="px-1"><a href="#">@{{ post.user.username }}</a></h2>
+                </div>
+                <small class="text-muted"> {{ post.timestamp|naturaltime }} </small>
+                <h2><a class="article-title" href="#">{{ post.title }}</a></h2>
+              </div>
+              
+              <p class="article-content">{{ post.content }}</p>
+            </div>
+          </article>
+          {% endfor %}  
+        </div>
+        
+      </div>
+    </main>
+
+    {% endblock content %}

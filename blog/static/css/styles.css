@@ -1,0 +1,148 @@
+body {
+    background: #fafafa;
+    color: #333333;
+    margin-top: 2rem;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #444444;
+  }
+  
+  ul {
+    margin: 0;
+  }
+  
+  .bg-steel {
+    background-color: #5f788a;
+  }
+  
+  .site-header .navbar-nav .nav-link {
+    color: #cbd5db;
+  }
+  
+  .site-header .navbar-nav .nav-link:hover {
+    color: #ffffff;
+  }
+  
+  .site-header .navbar-nav .nav-link.active {
+    font-weight: 500;
+  }
+  
+  .content-section {
+    background: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+  }
+  
+  .article-title {
+    color: #444444;
+  }
+  
+  a.article-title:hover {
+    color: #428bca;
+    text-decoration: none;
+  }
+  
+  .article-content {
+    white-space: pre-line;
+  }
+  
+  .article-img {
+    height: 65px;
+    width: 65px;
+    margin-right: 16px;
+  }
+  
+  .article-metadata {
+    padding-bottom: 1px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid #e3e3e3
+  }
+  
+  .article-metadata a:hover {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .article-svg {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+  }
+  
+  .account-img {
+    height: 125px;
+    width: 125px;
+    margin-right: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .account-heading {
+    font-size: 2.5rem;
+  }
+
+  /*Notifications*/
+.notification {
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 0.9rem;
+}
+.success {
+  background: #43DC7E;
+  color: white;
+}
+.error {
+  background: #AB3444;
+  color: white;
+  margin-bottom: 20px;
+}
+
+/*Form Elements*/
+
+input {
+width: 100%;
+border: 0;
+border-bottom: 2px solid #D3D8DC;
+outline: 0;
+background: #fff;
+padding: 20px 0 4px;
+margin: 0 0 20px;
+color: #777B7E;
+}
+input:focus {
+border-color: #7A9D96;
+color: #2C3238;
+}
+textarea {
+width: 100%;
+border: 0;
+border-bottom: 2px solid #D3D8DC;
+outline: 0;
+background: #fff;
+padding: 20px 0 4px;
+margin: 0 0 20px;
+color: #777B7E;
+}
+textarea:focus {
+border-color: #7A9D96;
+color: #2C3238;
+}
+button#submit {
+width: 100%;
+padding: 20px 0;
+text-align: center;
+background: #7A9D96;
+color: #fff;
+border: 0;
+border-radius: 4px;
+opacity: .8;
+transition: .35s linear;
+}
+
+button#submit:hover {
+opacity: 1;
+}
